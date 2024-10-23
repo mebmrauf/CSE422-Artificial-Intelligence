@@ -17,3 +17,7 @@
 6. Introduce probabilistic and logic models so the students will be able to use these models in various decision-making problems.
 
 7. Introduce the basic concept of machine learning.
+
+<h1>Playlist</h1>
+
+<h3>TRZ:</h3> https://www.youtube.com/playlist?list=PLtQXTSdoymQd068ZzJ1LTj0yL6AuOzKeE
