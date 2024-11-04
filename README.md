@@ -21,3 +21,5 @@
 <h1>Playlist</h1>
 
 <h3>TRZ:</h3> https://www.youtube.com/playlist?list=PLtQXTSdoymQd068ZzJ1LTj0yL6AuOzKeE
+
+<h3>SZH:</h3> https://drive.google.com/drive/folders/12CTZlKXiNpR6nDycvMuT_qmxPGdcTaTl?usp=drive_link
