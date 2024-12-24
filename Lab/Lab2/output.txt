@@ -1,0 +1,6 @@
+Part - 01
+100001010
+0
+
+Part - 02
+After two-point crossover two resultant offsprings are, 001011110 & 100101000

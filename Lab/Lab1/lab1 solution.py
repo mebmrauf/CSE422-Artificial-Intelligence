@@ -19,14 +19,17 @@ def graphHeuristic(infile):
 def aStarSearch(graph, heuristics, start, destination):
     # Priority queue with tuples of (estimated total cost, actual cost, current city, path list)
     priorityQueue = [(heuristics[start], 0, start, [start])]
-    visited = set()  # Track visited nodes
+    visited = set()
+    # print(f"PQ : {priorityQueue}\nVisited : {visited}\n\n")
 
     while priorityQueue:
         estimatedTotalCost, actualCost, current, path = heapq.heappop(priorityQueue)
+        # print(f"PQ : {priorityQueue}\n")
 
         if current in visited:  # Skip if already visited
             continue
         visited.add(current)
+        print(f"Visited :  {visited}\n\n")
 
         if current == destination:  # Goal test
             outFile.write(f"Path: {' -> '.join(path)}\nTotal distance: {actualCost} km")
@@ -47,6 +50,9 @@ outFile = open("output.txt", 'w')
 
 adjacencyList, heuristics, destination = graphHeuristic(inFile)
 aStarSearch(adjacencyList, heuristics, "Arad", destination)
+# print(adjacencyList)
+# print("\n\n")
+# print(heuristics)
 
 inFile.close()
 outFile.close()
