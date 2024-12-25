@@ -36,7 +36,7 @@ def mortalKombat(startingPlayer):
             roundWinners.append("Scorpion")
             scorpionWins += 1
         else:
-            roundWinners.append("Sub-Zero")
+            roundWinners.append ("Sub-Zero")
             subzeroWins += 1
         
         if scorpionWins == 2 or subzeroWins == 2:
